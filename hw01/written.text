@@ -1,0 +1,46 @@
+Joel Brandinger
+Hw 01
+15 February 2021
+
+Written #1
+
+In a sense, create a number line in the code using a bunch of "if", "if else",
+and "else" statements. Split the code into two sections. The first section 
+will state wether the number has one, two, or three plus digits. The second 
+section will state wether the number is negative or positive. The only
+variable needed is the input integer.
+
+How many digits?
+- Start by asking user to input a number
+- if number is greater than 99, "input has three or more digits
+- else, if number is greater than 9, "input has two digits"
+- else, if number is greater than 0, "input has one digit"
+- else, if number equals 0, "input is zero"
+- else, if number is greater than -10, "input has one digit"
+- else, if number is greater than -100, "input has two digits"
+- else, "input has three or more digits"
+
+Positive or negative?
+- After checking how many digits the number has, the program will check
+  if the number is positive or negative
+- if number is greater than zero, "input is positive"
+- else, if number equals zero, "input is neither positive or negative"
+- else, "input is negative"
+
+
+
+Written #2
+
+While writing this program I really didn't encounter any issues.
+The web page detailing how to write a sample code from scratch helped
+a lot. One small issue I had was formatting. I realized I needed to include
+a space after writing "The sum is: " in the quotation marks for it to look
+nice when the program runs.
+
+
+
+Written #3
+
+I spent approximately 3 hours split up over two days working on this
+assignment. 
+
