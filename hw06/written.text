@@ -1,0 +1,52 @@
+HW 6
+written.text
+
+Name: Joel Brandinger
+Login ID: jbrand12
+
+
+Written #1:  How I tested my code
+---------------------------------
+
+Test 1: To test that the class Animal had been properly created and that 
+        each member variable had been properly stored from the file, I created
+        a variable "a" of type Animal in main. The file was read into "a" 
+        and a.print() was called. The first line of short_amimals_db 
+        properly printed meaning the at least the first line of the file
+        was properly read. 
+    
+Test  2: To test that the class Animal_Array_List had been properly created,
+         a variable called "all_animals" of class Animal_Array_List was declared
+         in main. The file was read and each member was stored in the array. 
+         The print function was then called and all animals in the short db 
+         properly printed.
+         
+         The first time this test was ran it incorrectly only printed 8/10
+         animals in the short db file. The error was found to be that that
+         expand was incorrectly written to only expand once. Therefore, the
+         array  only had space for 8 animals.
+         
+Test 3: To test the classification report function I intitialized the db
+        and created an if statement that would check if the cmd was 
+        classification. If so the classification report was ran, else all
+        the animals in the db were printed. 
+        
+        At first try the program had no outputs when I tested the command. 
+        I found the issue to be that I hadn't create a response for when no
+        matching animals were found. And since I was only running the small db
+        and no "crustaceans" existed the program had no output.
+        
+        After correcting for the error the proper classifications printed for
+        all the appropriate commands with the small and large db.
+        
+ Conclusion: Upon review I probably should have ran more smaller tests, but I
+             found it very easy to get caught up in the moment while coding 
+             and just end up testing each section as a whole. Fortunately, 
+             it seems to have worked out alright this time. 
+
+
+Written #2:  How much time I spent on this assignment
+-----------------------------------------------------
+
+I spent approximately 7 hours total working on this homework.
+

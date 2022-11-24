@@ -1,0 +1,18 @@
+Joel Brandinger
+Written.text 
+Hw05
+17 March 2021  
+
+Written #1 
+
+    State variables            ->   i    array    array_len    sum
+    Values before loop starts  ->   0     8          6          8
+    Values at 2nd test         ->   1    10          6         18
+    Values at 3rd test         ->   2     3          6         21
+    Values at 4th test         ->   3     2          6         23
+    Values at 5th test         ->   4     9          6         32
+    Values at 6th test         ->   5     0          6         32
+    
+Written #2 
+    
+    I spent 7 hours working on this assignment.

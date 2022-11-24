@@ -1,0 +1,88 @@
+Project 2
+written.text
+
+Name: Joel Brandinger
+Login ID: jbrand12
+
+
+Written #1:  How much time I spent on this assignment
+-----------------------------------------------------
+
+Week 1 time: 12 hours 
+Week 2 time: 4 hours
+
+
+Written #2:  How I tested my code
+---------------------------------
+
+Week 1 testing:
+    
+    1. To test "wordfreq0.cpp" I started by creating a while loop that would
+       print every word read. Once I got that working, I created a function
+       that would check to see if the first letter of each word was a letter.
+       If it was a letter the function would return the word and print. This 
+       eliminated the words in "compile_wfltest" that didn't start with a
+       letter. Finally, I built a function that took each uppercase word and 
+       converted it to lowercase. I tested the program with "compile_wfltest",
+       "writtent.text", and "WhoPutTheBomp.txt" which all seemed to print the
+       correct lowercase first character a letter responses.
+       
+     2. To test the individual functions for the "WordFreqLinkedList" I 
+        created sample print statements in main that would output the result
+        of each. For example, after creating an empty list I made a statement 
+        that said "it worked" if the function did in fact return an empty list.
+        Or for size I made an 4 word list and called a print statement to tell 
+        me the size, which was in fact four.
+        
+    3. Finally, testing the main function in the command loop was relatively
+       easy. After implementing the code for each command I just ran a bunch
+       of random commands and tests similar to what was shown in the screen 
+       recording in the assignment spec. I did have some issues with inserting
+       words in the middle of a list for a while, but found a work around that 
+       created a boolean which told me wether the word should go at the end 
+       of the list or not. 
+
+
+Week 2 testing:
+
+    1. To test wordfreq1 I ran through the text files provided 
+       and compared their outputs to the outputs provided. The outputs matched 
+       right away and required very little extra testing. 
+       
+    2. To test wordfreq2 I started by creating simple print statements that 
+       would test the three functions of BinnedWordFreqLit. Then, all together 
+       I ran through the same files as I did for wordfreq1. I did have a small 
+       issue that printed each word 26 times. However this was an easy fix to
+       the countOccurrence function. 
+    
+    3. Most of the timed tests are recorded below however I also did try
+       running the 10,000 word file and 20,000 word file with both programs.
+       For wordfreq1, the 10,000 word file took 2.9 seconds and the 20,000 
+       word file took 11.78 seconds which is roughly 4 times longer not twice 
+       as long. For wordfreq2, the 10,000 word file took 4.06 seconds and the 
+       20,000 word file took 11.79 seconds which is roughly 3 times longer. 
+       Clearly the timing of the program is not linearly related to the 
+       number of words. 
+
+Written #3:  Timing
+-------------------
+(You will do this in week 2.  Leave it blank in week 1.)
+
+Use the "/usr/bin/time -p" command as shown in the assignment.  You
+may use some novels I downloaded from Project Gutenberg and placed in
+/comp/11/files/novels.
+
+Run both versions of your program (wordfreq1 and wordfreq2) on
+AliceInWonderland.txt and two other reasonably large files of your
+choice.  If you choose something that isn't one of the novels, tell us
+what the file was and how big it is.  E. g., show the output of the
+"wc" program on it ("wc" will count lines, "words," and characters in
+the file).
+
+Take the "user" times and enter them in the table below for
+AlicInWonderland.txt and your two other files.
+
+
+              AliceInWonderLand    words8000    WarAndPeace
+wordfreq1           1.23 sec        1.88 sec     246.40 sec
+wordfreq2           0.65 sec        2.65 sec     100.35 sec 
