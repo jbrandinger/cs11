@@ -1,0 +1,79 @@
+Joel Brandinger
+HW 02
+21 February 2021
+
+
+Written #1
+
+- Declare variables for the given number of parts and how many bikes
+  those given parts can make
+  
+- Ask the user to input the number of wheels, frames, and links
+
+- Determine how many bikes each part can make by dividing the input of
+  wheels by two, the input of frames by 1, and the input of links by fifty
+
+- Write a function that finds the lowest of these numbers and then state
+  that you can make this number of bikes 
+
+- Write another function to determine how many parts are left over by
+  subtracting the parts used from the given number of parts and then state
+  how many parts are leftover 
+  
+- Finally include a function that determines if a part or bike equals
+  one, if it does just write the word but if it doesn't add an s to the
+  end to make it plural 
+  
+
+Written #2
+
+#include <iostream>
+
+using namespace std;
+
+int main()
+{ 
+
+    int age = 50;
+
+    age = age + 50;
+
+    string name = "Sally";
+
+    string job = "Super Star";
+    
+    if (name == "Sally" && job == "Super Star" ) {    
+        
+            cout << "Hi Sally" << endl;
+            cout << "You are a super star!!" << endl;
+    }
+                                
+    if (age==100 || (age != 42 && name != job)) { 
+            
+            cout << "Have a nice day!" << endl;
+                    
+    } else {
+            cout << "This isn't Sally...Goodbye!!" << endl;
+    }
+    
+return 0;
+
+}
+
+
+Written #3
+
+To test the rock paper scissors program I repeatedly ran the program over
+and over testing each different input. I tested each input multiple times 
+so that the computer could randomly generate all the opposing different
+possible options. This way all possible combinations were tested and I
+made sure they checked out in the sense that they follow the rules of rock
+paper scissors. 
+
+
+Written #4
+
+I spent a total of 7 hours working on this homework assignment. A good 
+portion of it was spent learning to use functions and how to do it
+efficiently. 
+

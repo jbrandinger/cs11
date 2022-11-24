@@ -1,0 +1,61 @@
+Joel Brandinger
+Hw03
+Written.text 
+26 February 2021
+
+
+Written #1:
+
+Three benefits of using functions:
+
+    1. Code becomes a lot cleaner and easier to read.
+    
+    2. A single function can be reused multiple times. This can 
+       drastically reduce the number of lines of code you need to write.
+     
+    3. Debugging also becomes easier. When a certain part of the program 
+       doesn't work you can just go directly to that function to solve
+       the issue.
+       
+       
+Written #2:
+
+Pseudocode for dictionary.cpp:
+
+    - Write a function that declares all the words and matches the users
+      input to a word from the list 
+    
+    - Write a second function that declares all the definitions for the words.
+      Once the first function finds the word, the second function will find
+      its appropriate definition and print it.
+      
+    - If the users input is none of the words in the list, print 
+      "Definition Not Found"
+      
+Written #3:
+
+Function 1: 
+
+    This function will always return the smaller of the two numbers. 
+    If a is greater than b, it will keep returning a-1 until a == b.
+    If b is greater than a, it will keep returning b-1 until b == a.
+    
+Function 2:
+
+    This function will add a and b to c. If neither a or b equal zero, they 
+    both have 1 subtracted and c gets 2 added. Once a or b equals zero, the
+    other keeps having 1 subtracted and c gets 1 added. This continues
+    until all of a and b have been added to c.
+    
+    
+Written #4:
+    
+    I spent a total of 4 hours working on this assignment. 
+
+    
+
+    
+      
+      
+      
+      
